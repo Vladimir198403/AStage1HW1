@@ -90,13 +90,16 @@
             <Spinner
                 android:id="@+id/arRegion"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/arRegion"/>
+
 
             <Button
                 android:id="@+id/selRegion"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Button" />
+                android:text="@string/selRegion"
+                android:onClick="onSelRegion"/>
         </LinearLayout>
 
         <LinearLayout
@@ -107,13 +110,14 @@
             <Spinner
                 android:id="@+id/arPeriod"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/arPeriod"/>
 
             <Button
                 android:id="@+id/selPeriod"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Button" />
+                android:text="@string/selPeriod" />
         </LinearLayout>
 
         <LinearLayout
@@ -124,13 +128,14 @@
             <Spinner
                 android:id="@+id/arMode"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/arMode"/>
 
             <Button
                 android:id="@+id/selMode"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Button" />
+                android:text="@string/selMode" />
         </LinearLayout>
     </LinearLayout>
 

@@ -8,6 +8,25 @@
     <string name="DataAndTime">дата и время</string>
 
 
-
+    //нижние кнопки и списки
+    <string-array name="arRegion">
+        <item>Москва</item>
+        <item>Санкт-Питербург</item>
+    </string-array>
+    <string name="selRegion">Выберите регион</string>
+    <string-array name="arPeriod">
+        <item>Сегодня</item>
+        <item>Завтра</item>
+        <item>Послезавтра</item>
+        <item>Неделя</item>
+        <item>10 дней</item>
+        <item>Не верь</item>
+    </string-array>
+    <string name="selPeriod">Выберите период</string>
+    <string-array name="arMode">
+        <item>Таблица</item>
+        <item>Карта</item>
+    </string-array>
+    <string name="selMode">Как показать?</string>
 
 </resources>
