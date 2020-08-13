@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stage1HW1</string>
+
+
+    <string name="chRegion">Регион</string>
+    <string name="chSity">выбранный регион</string>
+    <string name="chPeriod">выбранный период</string>
+    <string name="DataAndTime">дата и время</string>
+
+
+
+
+</resources>
